@@ -1,0 +1,66 @@
+@import url('https://fonts.cdnfonts.com/css/cascadia-code');
+* {
+  font-family: 'Cascadia Code', monospace;
+}
+body {
+    background-color: #424549;
+  }
+  
+  #text {
+    background-color: black;
+    color: white;
+    padding: 10px;
+  }
+  
+  #game {
+    max-width: 800px;
+    max-height: 1000px;
+    background-color: lightgray;
+    color: white;
+    margin: 0 auto;
+    padding: 10px;
+  }
+  
+  #controls {
+    border: 1px black solid;
+    padding: 5px;
+    display: flex;
+    justify-content: center;
+
+  }
+  
+  #stats {
+    border: 1px black solid;
+    display: flex;
+    justify-content: center;
+    color: black;
+    padding: 5px;
+
+  }
+  .stat {
+    margin: 0px 30px;
+    font-size: 20px;
+  }
+  
+  
+  #monsterStats {
+    display: none;
+    border: 1px black solid;
+    color: white;
+    padding: 5px;
+    background-color: red;
+  }
+  
+
+
+  .button {
+    padding: 10px;
+    font-size: 20px;
+    margin: 10px;
+    color:slateblue;
+    background-color: gray;
+  }
+
+  #healthText {
+    color:green
+  }
